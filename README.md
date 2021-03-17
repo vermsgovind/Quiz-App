@@ -9,4 +9,4 @@ Features:
   * If timer reaches to 00:00 then quiz would be submitted automatically.
   * At last will display user name and his score.
 
-<img src="quizapp.gif" width=350px height=350px />
+<img src="quizapp.gif" width=500px height=500px />
