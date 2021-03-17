@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <!-- Include quiz.css -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="quiz.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="inst_form">
+            <div class="instruction">
+                <h2>Instructions for quiz are given below :- </h2>
+                <h3 class="rules">1. There will be five questions. Each will have four options </h3>
+                <h3 class="rules">2. You have total 10 minutes for completing the quiz.</h3>
+                <h3 class="rules">3. There will be no negative marking.</h3>
+                <h3 class="rules">4. for each correct answer you will get 1 point.</h3>
+            </div>
+            <div>
+                <form class="welcome_form" onsubmit="submitform(event)" name="welcome_form">
+                    <input type="text" name="username" placeholder="Enter Your Name">
+                    <button type="submit">Start Quiz</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Include quiz.js -->
+    <script src="quiz.js"></script>
+
+
+</body>
+
+</html>

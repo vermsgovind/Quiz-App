@@ -1,0 +1,167 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+    background:deepskyblue;
+}
+.instruction{
+    background-color: lightgray;
+    margin-bottom: 50px;
+    padding:20px;
+    width: 360px;
+    height: 277px;
+    overflow: auto;
+}
+.inst_form{
+    width: 364px;
+    height: 544px;
+    border:2px solid black;
+    border-radius: 3px;
+} 
+.rules{
+    margin-top:10px;
+}
+.welcome_form input, 
+.welcome_form button{
+    display:block;
+    width:100%;
+}
+.welcome_form input{
+    margin-bottom:15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    outline: none;
+}
+
+.welcome_form button{
+    padding: 20px 0px;
+    border: none;
+    font-size: 22px;
+    background-color: lightgray;
+    border-radius: 30px;
+    color:black;
+    transition: 0.3s all;
+    outline:none;
+}
+
+.welcome_form button:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.quiz{
+    background:white;
+    width: 364px;
+    height: 544px;
+    display: grid;
+    grid-template-rows: 60px auto 60px;
+    border:2px solid black;
+    border-radius: 3px;
+}
+.quiz_header{
+  background: yellow;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.3);
+  z-index: 1;
+  display:flex;
+  justify-content: space-between;
+}
+.quiz_body{
+    background: lightgray;
+    padding:30px;
+    overflow: auto;
+}
+.quiz_user{
+    display:flex;
+    align-items:center;
+    padding-left:30px;
+
+}
+
+.quiz_timer{
+    display:flex;
+    align-items: center; 
+    background:green;
+    color:white;
+    padding:0 30px;
+}
+.option_group{
+    list-style-type: none;
+    margin:30px 0px;
+}
+.option{
+    background-color:white;
+    width:300px;
+    padding:15px 20px;
+    margin-bottom:15px;
+    border-radius:100px;
+    border:2px solid transparent;
+
+}
+
+.option:hover{
+    cursor:pointer;
+    border:2px solid blue;
+    color:blue;
+}
+.btns{
+    display:flex;
+    justify-content: space-between;
+}
+
+.btn_next, .btn_prev, .btn_submit{
+    background-color: green;
+    color:white;
+    padding:15px 30px;
+    border:none;
+    transition:0.3s all;
+    outline:none;
+}
+.btn_next:hover,.btn_prev:hover, .btn_submit:hover{
+    cursor: pointer;
+    background-color: white;
+    color:blue;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+}
+
+.active{
+    background-color:blue;
+    color: white !important;
+}
+.award_icon{
+    font-size:300px;
+    margin-top:40px;
+}
+.user_name,
+.user_points,
+.user_time{
+    color:black;
+    text-align:center;
+    margin-top:15px;
+}
+.lastpage{
+    width: 364px;
+    height: 544px;
+    background-color: lightgray;
+    text-align: center;
+    border:2px solid black;
+    border-radius: 3px;
+}
